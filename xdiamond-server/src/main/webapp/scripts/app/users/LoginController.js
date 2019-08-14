@@ -9,7 +9,7 @@ angular.module('xdiamondApp')
         function (UserService, $scope, $location, $log, $state, $previousState) {
             //var authenticateInfo = {};
             //$scope.authenticateInfo = authenticateInfo;
-            $scope.user = {name: '', password: '', provider: 'ldap'};
+            $scope.user = {name: '', password: '', provider: 'standard'};
             $scope.userService = UserService;
             UserService.session();
 
